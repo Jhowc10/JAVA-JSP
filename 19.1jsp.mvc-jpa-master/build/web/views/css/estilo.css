@@ -1,0 +1,38 @@
+body{
+    margin:10px;
+    padding:0;
+    line-height: 2em;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+}
+
+label{
+    width: 100px;
+    float: left;
+    font-weight: bold;
+}
+
+.input {width: 400px;}
+
+.botao {width: 200px;}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover  {
+    text-decoration: overline underline;
+    font-size: 16px;
+    /*font-weight: bold;*/
+}
+
+table {
+    border: solid 1px;
+}
+
+table td {
+    border: solid 1px;
+    width: auto;
+    padding: 10px;
+}

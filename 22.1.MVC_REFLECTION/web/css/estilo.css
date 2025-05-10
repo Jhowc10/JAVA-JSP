@@ -1,0 +1,45 @@
+body{
+    font-family: Arial;
+    font-size: 14px;
+}
+
+label{
+    display: block;
+    float: left; margin-right:5px;
+    margin-right:5px;
+    text-align: right;
+    width: 120px;
+    font-size: 15px;
+}
+
+input{
+    width: 310px;
+}
+
+.button{
+    width: 76px;
+}
+
+table {
+    padding: 5px;
+}
+table.comBordaSimples {
+    margin: 52px;
+    width: 60%;
+    border-collapse: collapse;
+}
+ 
+table.comBordaSimples td {
+    border: 1px solid black;
+}
+ 
+table.comBordaSimples th {
+    border: 1px solid black;
+}
+
+.mensagem{
+    color: #FF0000;
+    text-align: left;
+}
+
+

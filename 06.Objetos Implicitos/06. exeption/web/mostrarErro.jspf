@@ -1,0 +1,17 @@
+<%@ page pageEncoding="UTF-8" %>
+<!-- Configura a página para tratar erros -->
+<%@ page isErrorPage="true" %>
+<html>
+    <head>
+        <title>Mostra Erro</title>
+    </head>
+    <body>
+        <h1>Atenção!</h1>
+        <p>
+            <%
+                // mostra o erro que foi "capturado"
+                out.print(exception.getMessage());
+            %>
+        </p>
+    </body>
+</html>
